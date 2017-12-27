@@ -19,7 +19,7 @@ int main() {
     if (stream >> element)
         success = false;
     for (int i = 0;i<10;i++){
-        for (int j = i;j<10;j++){
+        for (int j = i+1;j<10;j++){
             if (a[j]<a[i]){
                 p++;
             }
